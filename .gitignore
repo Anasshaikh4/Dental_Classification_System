@@ -39,6 +39,5 @@ yarn-error.log*
 *.png
 *.gif
 *.tiff
-*.txt
 *.csv
 *.pdf
