@@ -33,11 +33,3 @@ coverage/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-*.jpeg
-*.jpg
-*.png
-*.gif
-*.tiff
-*.csv
-*.pdf
