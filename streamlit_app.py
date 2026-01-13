@@ -299,7 +299,7 @@ st.markdown(f"<style>{_CSS}</style>", unsafe_allow_html=True)
 
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = ("weight/best.pt")
+MODEL_PATH = ("./weight/best.pt")
 # MODEL_PATH = Path(r"C:\Anas\Anas Working\Dental_classification\training_pipeline\runs\train7\weights\best.pt")
 # Fallback model path (uncomment / adjust as needed):
 # MODEL_PATH = (BASE_DIR.parent / "training_pipeline" / "yolo11n.pt").resolve()
