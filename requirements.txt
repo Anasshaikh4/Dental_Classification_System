@@ -1,13 +1,27 @@
-# Core app
+# # Core app
+# streamlit==1.52.2
+
+# # OpenCV headless (must be installed before ultralytics to avoid opencv-python conflict)
+# opencv-python-headless>=4.8.0
+
+# # ML / inference
+# ultralytics==8.3.221
+# torch>=2.0.0
+
+# # Image processing
+# Pillow
+# numpy
+
+
 streamlit==1.52.2
 
-# OpenCV headless (must be installed before ultralytics to avoid opencv-python conflict)
-opencv-python-headless>=4.8.0
+# OpenCV (stable + Streamlit Cloud safe)
+opencv-python-headless==4.8.1.78
 
-# ML / inference
+# ML
 ultralytics==8.3.221
 torch>=2.0.0
 
-# Image processing
+# Image stack (ABI-safe)
+numpy<2
 Pillow
-numpy
